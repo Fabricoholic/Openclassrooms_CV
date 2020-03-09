@@ -1,0 +1,211 @@
+	/* GENERAL */
+
+body {
+
+}
+
+p {
+	font-family: 'Raleway', Arial, serif;
+	font-size : 0.7em;
+	text-align: justify;
+}
+
+#page {
+	width : 800px;
+	margin : auto;
+	font-family : 'Raleway', Arial, serif;
+	border : 1px solid black;
+	color : #4a4a4a;
+}
+
+
+	/* SECTIONS */
+
+
+
+
+	/* FLEXBOXS */
+
+#grand_header, #sections, .container, .dates {
+	display : flex;
+}
+
+.recommandation, .content, .droite {
+	flex : 2;
+}
+
+.dates, .gauche {
+	flex: 1;
+}
+
+.gauche .container {
+	justify-content: center;
+}
+
+	/* HEADER et TITRES */
+
+		/* GRAND HEADER */
+
+#grand_header {
+	align-items: center;
+}
+
+#grand_header span {
+	color : #980019;
+	width : 100%;
+}
+
+#photo_profil {
+	width : 100%;
+	background-color: #78002b;
+	margin : auto;
+	text-align : center;
+	padding-top : 20px;
+}
+
+#photo_profil img {
+	width : 130px;
+	margin : auto;
+	border-radius: 50%;
+	border:  3px solid rgba(0, 0, 0, 0.3);
+}
+
+
+	/*GENERAUX */
+
+
+header h1 {
+	text-transform: uppercase;
+	font-family : 'Muli', Arial, serif;
+	font-size : 1.5em;
+	margin-bottom : 2px;
+}
+
+
+header h2 {
+	font-size : 0.9em;
+	margin : 0px;
+}
+
+h3 {
+	font-family : 'Raleway', Arial, serif;
+	text-transform : uppercase;
+	padding-bottom : 8px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+h4 {
+	margin : 0px;
+	margin-bottom : 10px;
+	text-transform: uppercase;
+	font-size : 0.9em;
+}
+
+h5 {
+	margin: 4px 0px;
+	font-size : 0.7em;
+}
+
+.trait {
+	width : 50px;
+	border-bottom : 2px solid #980019;
+}
+
+.logo {
+	color : #980019;
+	margin-right : 8px;
+}
+
+
+
+	/* GAUCHE */
+
+.gauche {
+	background-color : #78002b;
+}
+
+.gauche h3 {
+	background-color: #32000a;
+	padding : 5px 0px;
+	margin: 30px 0px;
+
+	color : #b70034;
+	text-align: center;
+}
+
+.gauche p {
+	text-align : justify;
+	color : black;
+	padding-left: 30px;				/* PROBLEME le PADDING fait dépasser le cadre. La marge ne devrait-elle pas être à l'intérieur ?*/
+	padding-right : 30px;
+
+}
+
+
+#loisirs {
+	text-align: center;
+	padding-bottom : 30px;
+}
+
+#loisirs i {
+	width : 50px;
+}
+
+.logo_loisirs {
+	color : black;
+	font-size : 1.5em;
+	border-radius : 50%;
+	border: 2px solid black;
+	padding : 7px 0px;
+	margin: 3px;
+}
+
+
+
+	/* DROITE */
+.droite {
+	background-color : #ffffff;
+	padding : 0px 35px;
+	height: 100%;
+}
+
+.droite h3 {
+	border-bottom : 2px solid #980019;
+	color : black;
+
+}
+
+.dates {
+	font-size: 0.7em;
+}
+
+
+.droite .content {
+	margin-bottom : 20px;
+}
+
+.point_date {
+	width : 20px;
+	text-align: left;
+	color : #980019;
+	padding-top: 4px;
+	font-size: 0.5em;
+}
+
+.premier {
+	font-size: 0.7em;
+}
+
+.annee_date {
+	width : 100%;
+}
+
+.droite p {
+	margin : 5px 0px;
+}
+
+.recommandation {
+	padding-bottom: 20px;
+}
