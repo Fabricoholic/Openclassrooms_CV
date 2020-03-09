@@ -1,5 +1,6 @@
 	/* GENERAL */
 
+
 body {
 
 }
@@ -38,7 +39,7 @@ p {
 	flex: 1;
 }
 
-.gauche .container {
+.container {
 	justify-content: center;
 }
 
@@ -53,21 +54,6 @@ p {
 #grand_header span {
 	color : #980019;
 	width : 100%;
-}
-
-#photo_profil {
-	width : 100%;
-	background-color: #78002b;
-	margin : auto;
-	text-align : center;
-	padding-top : 20px;
-}
-
-#photo_profil img {
-	width : 130px;
-	margin : auto;
-	border-radius: 50%;
-	border:  3px solid rgba(0, 0, 0, 0.3);
 }
 
 
@@ -138,37 +124,57 @@ h5 {
 .gauche p {
 	text-align : justify;
 	color : black;
-	padding-left: 30px;				/* PROBLEME le PADDING fait dépasser le cadre. La marge ne devrait-elle pas être à l'intérieur ?*/
+	padding-left: 30px;	
 	padding-right : 30px;
 
 }
 
 
+#photo_profil {
+	width : 100%;
+	background-color: #78002b;
+	margin : auto;
+	text-align : center;
+	padding-top : 20px;
+}
+
+#photo_profil img {
+	width : 130px;
+	margin : auto;
+	border-radius: 50%;
+	border:  3px solid rgba(0, 0, 0, 0.3);
+}
+
+#a_propos {
+	height : 320px;
+}
+
+
+
 #loisirs {
+	align-self: flex-end; 			/*POURQUOI NE FONCTIONNE PAS POUR ETRE COLLE EN BAS ? */
 	text-align: center;
 	padding-bottom : 30px;
 }
 
-#loisirs i {
-	width : 50px;
-}
+
 
 .logo_loisirs {
 	color : black;
 	font-size : 1.5em;
-	border-radius : 50%;
+	width : 40px;
+	height: 40px;
 	border: 2px solid black;
-	padding : 7px 0px;
-	margin: 3px;
+	align-items: center;		/* POURQUOI NE FONCTIONNE PAS ? */
+	border-radius: 50px;
 }
-
 
 
 	/* DROITE */
 .droite {
-	background-color : #ffffff;
-	padding : 0px 35px;
+	background-color :#ffffff;	
 	height: 100%;
+	margin-left : 35px;		/* JE VEUX FAIRE UNE MARGE A DROITE MAIS SI EJ FAIS MARGIN OU PADDING DECALAGE APPARAIT */
 }
 
 .droite h3 {

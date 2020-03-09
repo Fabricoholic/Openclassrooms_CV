@@ -1,0 +1,60 @@
+#page {
+	width : 95%;
+}
+
+#sections, #grand_header {
+flex-direction: column;
+}
+
+#grand_header, .gauche, .droite {
+	margin : 20px 0px;
+}
+
+.gauche #photo_profil {
+	padding : 0px;
+}
+
+#grand-header{
+	text-align: center;
+}
+
+h1 {
+	margin: 0px; 
+}
+
+h2 {
+	text-align : center;
+}
+
+.trait {
+	margin: auto;
+}
+
+#grand_header .droite {
+	margin: 0px;}
+
+#photo_profil {
+	background-color: #ffffff;
+}
+
+#photo_profil img {
+	width : 150px;
+	border-radius: 50%;
+	border:  3px solid #32000a;
+}
+
+#contact p {
+	text-align : center;
+}
+
+#contact h3 {
+	margin-top : 0px;
+}
+
+.droite {
+	margin : 0px 35px;
+}
+
+#a_propos {
+	height : auto;
+}
