@@ -1,9 +1,10 @@
 #page {
 	width : 95%;
 	margin : auto;
+	padding-right: 0px;
 }
 
-#sections, #grand_header {
+#sections, #grand_header, .container {
 flex-direction: column;
 }
 
@@ -58,4 +59,18 @@ h2 {
 
 #a_propos {
 	height : auto;
+}
+
+ .annee_date, #loisirs .container {
+	display: flex;
+	flex-direction: row;
+}
+
+.annee_date p {
+	padding-right: 10px;
+}
+
+.dates {
+	font-size: 1em;
+	padding: 10px 0px;
 }
