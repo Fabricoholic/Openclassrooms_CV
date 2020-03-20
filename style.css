@@ -28,7 +28,7 @@ p {
 
 	/* FLEXBOXS */
 
-#grand_header, #sections, .container, .dates, .gauche,  .logo_loisirs {
+#grand_header, #sections, .container, .dates, .gauche, .logo_loisirs {
 	display : flex;
 }
 
@@ -150,7 +150,7 @@ h5 {
 }
 
 #a_propos {
-	height : 320px;
+	height : 400px;
 }
 
 
